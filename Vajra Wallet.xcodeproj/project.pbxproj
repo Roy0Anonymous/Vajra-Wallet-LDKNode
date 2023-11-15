@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C606EE992B04F27300823A1E /* LDKNode in Frameworks */ = {isa = PBXBuildFile; productRef = C606EE982B04F27300823A1E /* LDKNode */; };
+		C606EE9B2B050F8700823A1E /* LightningViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C606EE9A2B050F8700823A1E /* LightningViewModel.swift */; };
+		C6542AE02AFAC9A200FA6443 /* CreateWalletView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6542ADF2AFAC9A200FA6443 /* CreateWalletView.swift */; };
+		C6542AE22AFACC3F00FA6443 /* NodeErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6542AE12AFACC3F00FA6443 /* NodeErrorView.swift */; };
+		C6583E9C2AFA3D3600060B27 /* SendBitcoinView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6583E9B2AFA3D3600060B27 /* SendBitcoinView.swift */; };
+		C6583E9E2AFA3D4200060B27 /* ReceiveBitcoinView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6583E9D2AFA3D4200060B27 /* ReceiveBitcoinView.swift */; };
+		C6583EA02AFA9A5000060B27 /* BitcoinView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6583E9F2AFA9A5000060B27 /* BitcoinView.swift */; };
+		C6583EA22AFA9AC100060B27 /* LightningView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6583EA12AFA9AC100060B27 /* LightningView.swift */; };
+		C667D87B2B010BD800C502CB /* AddPeerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C667D87A2B010BD800C502CB /* AddPeerView.swift */; };
+		C667D87D2B010C6F00C502CB /* AddPeerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C667D87C2B010C6F00C502CB /* AddPeerViewModel.swift */; };
+		C667D8802B011A9600C502CB /* CreateChannelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C667D87F2B011A9600C502CB /* CreateChannelView.swift */; };
+		C667D8822B011BCA00C502CB /* CreateChannelViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C667D8812B011BCA00C502CB /* CreateChannelViewModel.swift */; };
+		C67575362AF99386000A3753 /* Vajra_WalletApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C67575352AF99386000A3753 /* Vajra_WalletApp.swift */; };
+		C67575382AF99386000A3753 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C67575372AF99386000A3753 /* MainView.swift */; };
+		C675753A2AF99388000A3753 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C67575392AF99388000A3753 /* Assets.xcassets */; };
+		C675753D2AF99388000A3753 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C675753C2AF99388000A3753 /* Preview Assets.xcassets */; };
+		C68DA2292B029C66008FA39D /* LDKNode in Frameworks */ = {isa = PBXBuildFile; productRef = C68DA2282B029C66008FA39D /* LDKNode */; };
+		C6C0A08F2AFFB9EC0080F5B3 /* LDKNodeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6C0A08E2AFFB9EC0080F5B3 /* LDKNodeManager.swift */; };
+		C6C0A0912B0011940080F5B3 /* ReceiveBitcoinViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6C0A0902B0011940080F5B3 /* ReceiveBitcoinViewModel.swift */; };
+		C6C0A0932B001CEE0080F5B3 /* CheckOutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6C0A0922B001CEE0080F5B3 /* CheckOutView.swift */; };
+		C6C0A0952B001F8D0080F5B3 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6C0A0942B001F8D0080F5B3 /* CustomTextField.swift */; };
+		C6C0A0972B0020340080F5B3 /* SendBitcoinViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6C0A0962B0020340080F5B3 /* SendBitcoinViewModel.swift */; };
+		C6C0A09D2B0020C80080F5B3 /* CustomButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6C0A09C2B0020C80080F5B3 /* CustomButtons.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C606EE9A2B050F8700823A1E /* LightningViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LightningViewModel.swift; sourceTree = "<group>"; };
+		C6542ADF2AFAC9A200FA6443 /* CreateWalletView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateWalletView.swift; sourceTree = "<group>"; };
+		C6542AE12AFACC3F00FA6443 /* NodeErrorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NodeErrorView.swift; sourceTree = "<group>"; };
+		C6583E9B2AFA3D3600060B27 /* SendBitcoinView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendBitcoinView.swift; sourceTree = "<group>"; };
+		C6583E9D2AFA3D4200060B27 /* ReceiveBitcoinView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReceiveBitcoinView.swift; sourceTree = "<group>"; };
+		C6583E9F2AFA9A5000060B27 /* BitcoinView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BitcoinView.swift; sourceTree = "<group>"; };
+		C6583EA12AFA9AC100060B27 /* LightningView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LightningView.swift; sourceTree = "<group>"; };
+		C667D87A2B010BD800C502CB /* AddPeerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPeerView.swift; sourceTree = "<group>"; };
+		C667D87C2B010C6F00C502CB /* AddPeerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPeerViewModel.swift; sourceTree = "<group>"; };
+		C667D87F2B011A9600C502CB /* CreateChannelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateChannelView.swift; sourceTree = "<group>"; };
+		C667D8812B011BCA00C502CB /* CreateChannelViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateChannelViewModel.swift; sourceTree = "<group>"; };
+		C67575322AF99386000A3753 /* Vajra Wallet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Vajra Wallet.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C67575352AF99386000A3753 /* Vajra_WalletApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vajra_WalletApp.swift; sourceTree = "<group>"; };
+		C67575372AF99386000A3753 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		C67575392AF99388000A3753 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C675753C2AF99388000A3753 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C6C0A08E2AFFB9EC0080F5B3 /* LDKNodeManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LDKNodeManager.swift; sourceTree = "<group>"; };
+		C6C0A0902B0011940080F5B3 /* ReceiveBitcoinViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReceiveBitcoinViewModel.swift; sourceTree = "<group>"; };
+		C6C0A0922B001CEE0080F5B3 /* CheckOutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckOutView.swift; sourceTree = "<group>"; };
+		C6C0A0942B001F8D0080F5B3 /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		C6C0A0962B0020340080F5B3 /* SendBitcoinViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendBitcoinViewModel.swift; sourceTree = "<group>"; };
+		C6C0A09C2B0020C80080F5B3 /* CustomButtons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButtons.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C675752F2AF99386000A3753 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C606EE992B04F27300823A1E /* LDKNode in Frameworks */,
+				C68DA2292B029C66008FA39D /* LDKNode in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C606EE9C2B050FBB00823A1E /* Lightning */ = {
+			isa = PBXGroup;
+			children = (
+				C6583EA12AFA9AC100060B27 /* LightningView.swift */,
+				C606EE9A2B050F8700823A1E /* LightningViewModel.swift */,
+			);
+			path = Lightning;
+			sourceTree = "<group>";
+		};
+		C6542ABC2AFABF2D00FA6443 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		C667D87E2B011A8100C502CB /* AddPeer */ = {
+			isa = PBXGroup;
+			children = (
+				C667D87A2B010BD800C502CB /* AddPeerView.swift */,
+				C667D87C2B010C6F00C502CB /* AddPeerViewModel.swift */,
+			);
+			path = AddPeer;
+			sourceTree = "<group>";
+		};
+		C667D8832B011CAC00C502CB /* CreateChannel */ = {
+			isa = PBXGroup;
+			children = (
+				C667D87F2B011A9600C502CB /* CreateChannelView.swift */,
+				C667D8812B011BCA00C502CB /* CreateChannelViewModel.swift */,
+			);
+			path = CreateChannel;
+			sourceTree = "<group>";
+		};
+		C67575292AF99386000A3753 = {
+			isa = PBXGroup;
+			children = (
+				C67575342AF99386000A3753 /* Vajra Wallet */,
+				C67575332AF99386000A3753 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C67575332AF99386000A3753 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C67575322AF99386000A3753 /* Vajra Wallet.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C67575342AF99386000A3753 /* Vajra Wallet */ = {
+			isa = PBXGroup;
+			children = (
+				C67575352AF99386000A3753 /* Vajra_WalletApp.swift */,
+				C6C0A08E2AFFB9EC0080F5B3 /* LDKNodeManager.swift */,
+				C67575432AF99540000A3753 /* View */,
+				C6542ABC2AFABF2D00FA6443 /* ViewModel */,
+				C67575392AF99388000A3753 /* Assets.xcassets */,
+				C675753B2AF99388000A3753 /* Preview Content */,
+			);
+			path = "Vajra Wallet";
+			sourceTree = "<group>";
+		};
+		C675753B2AF99388000A3753 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				C675753C2AF99388000A3753 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C67575432AF99540000A3753 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C6542ADF2AFAC9A200FA6443 /* CreateWalletView.swift */,
+				C6542AE12AFACC3F00FA6443 /* NodeErrorView.swift */,
+				C67575372AF99386000A3753 /* MainView.swift */,
+				C667D8832B011CAC00C502CB /* CreateChannel */,
+				C667D87E2B011A8100C502CB /* AddPeer */,
+				C6583E9F2AFA9A5000060B27 /* BitcoinView.swift */,
+				C606EE9C2B050FBB00823A1E /* Lightning */,
+				C6C0A0982B0020480080F5B3 /* SendBitcoin */,
+				C6C0A0992B0020550080F5B3 /* ReceiveBitcoin */,
+				C6C0A0922B001CEE0080F5B3 /* CheckOutView.swift */,
+				C6C0A0942B001F8D0080F5B3 /* CustomTextField.swift */,
+				C6C0A09C2B0020C80080F5B3 /* CustomButtons.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C6C0A0982B0020480080F5B3 /* SendBitcoin */ = {
+			isa = PBXGroup;
+			children = (
+				C6583E9B2AFA3D3600060B27 /* SendBitcoinView.swift */,
+				C6C0A0962B0020340080F5B3 /* SendBitcoinViewModel.swift */,
+			);
+			path = SendBitcoin;
+			sourceTree = "<group>";
+		};
+		C6C0A0992B0020550080F5B3 /* ReceiveBitcoin */ = {
+			isa = PBXGroup;
+			children = (
+				C6583E9D2AFA3D4200060B27 /* ReceiveBitcoinView.swift */,
+				C6C0A0902B0011940080F5B3 /* ReceiveBitcoinViewModel.swift */,
+			);
+			path = ReceiveBitcoin;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C67575312AF99386000A3753 /* Vajra Wallet */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C67575402AF99388000A3753 /* Build configuration list for PBXNativeTarget "Vajra Wallet" */;
+			buildPhases = (
+				C675752E2AF99386000A3753 /* Sources */,
+				C675752F2AF99386000A3753 /* Frameworks */,
+				C67575302AF99386000A3753 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Vajra Wallet";
+			packageProductDependencies = (
+				C68DA2282B029C66008FA39D /* LDKNode */,
+				C606EE982B04F27300823A1E /* LDKNode */,
+			);
+			productName = "Vajra Wallet";
+			productReference = C67575322AF99386000A3753 /* Vajra Wallet.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C675752A2AF99386000A3753 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					C67575312AF99386000A3753 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+				};
+			};
+			buildConfigurationList = C675752D2AF99386000A3753 /* Build configuration list for PBXProject "Vajra Wallet" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C67575292AF99386000A3753;
+			packageReferences = (
+				C606EE972B04F27200823A1E /* XCRemoteSwiftPackageReference "ldk-node" */,
+			);
+			productRefGroup = C67575332AF99386000A3753 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C67575312AF99386000A3753 /* Vajra Wallet */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C67575302AF99386000A3753 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C675753D2AF99388000A3753 /* Preview Assets.xcassets in Resources */,
+				C675753A2AF99388000A3753 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C675752E2AF99386000A3753 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6583E9C2AFA3D3600060B27 /* SendBitcoinView.swift in Sources */,
+				C6542AE02AFAC9A200FA6443 /* CreateWalletView.swift in Sources */,
+				C667D87D2B010C6F00C502CB /* AddPeerViewModel.swift in Sources */,
+				C6C0A09D2B0020C80080F5B3 /* CustomButtons.swift in Sources */,
+				C6583EA22AFA9AC100060B27 /* LightningView.swift in Sources */,
+				C667D87B2B010BD800C502CB /* AddPeerView.swift in Sources */,
+				C6C0A08F2AFFB9EC0080F5B3 /* LDKNodeManager.swift in Sources */,
+				C667D8802B011A9600C502CB /* CreateChannelView.swift in Sources */,
+				C606EE9B2B050F8700823A1E /* LightningViewModel.swift in Sources */,
+				C6C0A0972B0020340080F5B3 /* SendBitcoinViewModel.swift in Sources */,
+				C6583E9E2AFA3D4200060B27 /* ReceiveBitcoinView.swift in Sources */,
+				C6583EA02AFA9A5000060B27 /* BitcoinView.swift in Sources */,
+				C6542AE22AFACC3F00FA6443 /* NodeErrorView.swift in Sources */,
+				C667D8822B011BCA00C502CB /* CreateChannelViewModel.swift in Sources */,
+				C67575382AF99386000A3753 /* MainView.swift in Sources */,
+				C6C0A0952B001F8D0080F5B3 /* CustomTextField.swift in Sources */,
+				C67575362AF99386000A3753 /* Vajra_WalletApp.swift in Sources */,
+				C6C0A0932B001CEE0080F5B3 /* CheckOutView.swift in Sources */,
+				C6C0A0912B0011940080F5B3 /* ReceiveBitcoinViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		C675753E2AF99388000A3753 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C675753F2AF99388000A3753 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C67575412AF99388000A3753 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Vajra Wallet/Preview Content\"";
+				DEVELOPMENT_TEAM = L6UN4PT9N8;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Roy0Anonymous.Vajra-Wallet";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C67575422AF99388000A3753 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Vajra Wallet/Preview Content\"";
+				DEVELOPMENT_TEAM = L6UN4PT9N8;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Roy0Anonymous.Vajra-Wallet";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C675752D2AF99386000A3753 /* Build configuration list for PBXProject "Vajra Wallet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C675753E2AF99388000A3753 /* Debug */,
+				C675753F2AF99388000A3753 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C67575402AF99388000A3753 /* Build configuration list for PBXNativeTarget "Vajra Wallet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C67575412AF99388000A3753 /* Debug */,
+				C67575422AF99388000A3753 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		C606EE972B04F27200823A1E /* XCRemoteSwiftPackageReference "ldk-node" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/lightningdevkit/ldk-node";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		C606EE982B04F27300823A1E /* LDKNode */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C606EE972B04F27200823A1E /* XCRemoteSwiftPackageReference "ldk-node" */;
+			productName = LDKNode;
+		};
+		C68DA2282B029C66008FA39D /* LDKNode */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = LDKNode;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = C675752A2AF99386000A3753 /* Project object */;
+}
